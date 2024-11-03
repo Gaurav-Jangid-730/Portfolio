@@ -397,7 +397,7 @@ a{
   }
 
   .project-content-right{ 
-    right:10%;
+    left:10%;
   }
 
   .project-skills-container{
@@ -458,7 +458,7 @@ a{
     background-image: url(./images/projects/Project02.png);
   }
   #project3{
-    background-image: url(./images/projects/Project3.png);
+    background-image: url(./images/projects/Project03.png);
   }
   #project4{
     margin-left:120px;
@@ -715,3 +715,37 @@ footer{
   display:flex;
   gap:1.2rem;
 }
+.more-projects-container {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers vertically if needed */
+  text-align: center; /* Ensures text is centered within the link */
+}
+
+.effects {
+  display: inline-block; /* Limits the underline width to the text only */
+  position: relative; /* Needed for positioning the underline */
+  text-decoration: none;
+}
+
+.effects::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; /* Adjust the height of the underline */
+  background-color: #e84949; /* Matches the text color */
+  transition: width 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.effects:hover::after {
+  width: 100%; /* Expands the underline to full width of the text on hover */
+}
+
+.effects h2,h3 {
+  color: #e84949;
+  margin: 0; /* Removes default margin from h2 */
+  padding-bottom: 5px; /* Adds space between text and underline */
+}
+
