@@ -425,7 +425,7 @@ a{
 .project-card {
   width: 90%;
   height: 550px;
-  background-image: url(.images/projects/project01.png);
+  background-image: url(.images/projects/Project01.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -434,7 +434,6 @@ a{
 .project-card::after {
   content: "";
   color: var(--bgPrimary);
-  position: absolute;
   background: var(--cardShadow);
   z-index: 0;
   top: 0;
@@ -552,11 +551,11 @@ a{
   background-image: url(./images/projects/Project01.png);
 }
 #project2 {
-  background-image: url(./images/projects/Project02.png);
+  background-image: url(images/projects/Project02.png);
   margin-left: 120px;
 }
 #project3 {
-  background-image: url(./images/projects/Project03.png);
+  background-image: url(images/projects/Project03.png);
 }
 #project4 {
   background-image: url(./images/projects/Project04.png);

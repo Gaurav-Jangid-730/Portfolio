@@ -7,21 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gaurav Sharma</title>
   <link rel="shortcut icon" href="./images/userAsset/favicon.ico" type="image/x-icon">
-  <script defer>
-  (function() {
-    let theme = localStorage.getItem("theme");
-
-    // First visit → default dark mode
-    if (!theme) {
-      theme = "dark";
-      localStorage.setItem("theme", "dark");
-    }
-
-    if (theme === "dark") {
-      toggleTheme();
-    }
-  })();
-</script>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -418,6 +403,23 @@ toggleBtn.addEventListener("change", toggleTheme);
     backSpeed: 80,
     backDelay: 1000,
   });
+
+  function check() {
+    let theme = localStorage.getItem("theme");
+
+    // First visit → default dark mode
+    if (!theme) {
+      theme = "dark";
+      localStorage.setItem("theme", "dark");
+    }
+    if (theme === "dark") {
+      const toggle = document.getElementById("toggle-dark");
+      toggle.checked = true;
+      toggleTheme();
+    }
+  };
+
+  check();
 </script>
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbzhs_e0iqjEWtJMHMK9x74I-DZbw_wKJZRBixr98cFz9sNMzkfjWdwMNuvHFBT4jXORkA/exec'
