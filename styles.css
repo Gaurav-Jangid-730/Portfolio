@@ -435,6 +435,7 @@ a{
   content: "";
   color: var(--bgPrimary);
   background: var(--cardShadow);
+  position: relative;
   z-index: 0;
   top: 0;
   left: 0;
