@@ -266,13 +266,13 @@ a{
 }
 .user-image {
   padding: 2.5rem;
-  filter: grayscale(1);
-  transition: all 1s;
-  animation: scaleImage 5s linear infinite;
 }
 .user-image img {
-  object-fit: cover;
+  object-fit:fill;
+  width: 470px;
+  scale: 1.2;
   z-index: -9;
+filter: drop-shadow(5px 5px 10px white);
 }
 @keyframes scaleImage {
   0% {
@@ -290,14 +290,6 @@ a{
   }
 }
 
-.icon-dots {
-  z-index: 9;
-  bottom: -1rem;
-  right: 0;
-  animation-name: dotsAnimation;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-}
 @keyframes dotsAnimation {
   0% {
     transform: translateY(0px);
@@ -310,13 +302,6 @@ a{
   }
 }
 
-.icon-cube {
-  top: -0.8em;
-  right: 1em;
-  animation-name: cubeRotate;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
 @keyframes cubeRotate {
   0% {
     transform: rotateY(0deg) translateY(0px);
@@ -329,11 +314,6 @@ a{
   }
 }
 
-.icon-circle {
-  bottom: 0;
-  left: 0;
-  animation: shakeEffect 6s linear infinite;
-}
 @keyframes shakeEffect {
   50% {
     bottom: 10%;
@@ -341,23 +321,11 @@ a{
   }
 }
 
-.icon-zigzak {
-  z-index: 10;
-  top: 1.5em;
-  left: -0.3em;
-  animation: zigzakAnimation 5s ease-in infinite;
-}
 @keyframes zigzakAnimation {
   50% {
     top: 2%;
     left: 5%;
   }
-}
-
-.icon-plus {
-  top: -0.8rem;
-  left: 50%;
-  animation: shakeEffectPlus 5s ease-in infinite;
 }
 @keyframes shakeEffectPlus {
   50% {
