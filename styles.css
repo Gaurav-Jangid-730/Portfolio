@@ -383,7 +383,7 @@ a{
     display: none;
   }
   #btn-top {
-    display: none;
+    justify-self: center;
   }
   #btn-bottom {
     margin-top: -7rem;
