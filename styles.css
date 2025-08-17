@@ -475,7 +475,8 @@ a{
   left: 10%;
 }
 .project-content-right {
-  right: -20%;
+  right: 20%;
+  padding-left: 120px;
 }
 .project-card:hover .project-content {
   scale: 1.1;
@@ -595,6 +596,10 @@ a{
   }
   .project-content-left {
     left: 0;
+  }
+  .project-content-right{
+    right: 0;
+    padding-left: 0px;
   }
   .project-heading {
     font-size: 40px;
