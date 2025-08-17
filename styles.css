@@ -508,7 +508,7 @@ a{
   cursor: pointer;
   font-size: 35px;
   transition: all 0.4s;
-  color: var(--bgPrimary);
+  color: var(--projectShadow);
 }
 .icon:hover {
   color: var(--bgOrange);
