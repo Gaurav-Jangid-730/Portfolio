@@ -267,13 +267,13 @@ a{
 .user-image {
   padding: 2.5rem;
 }
-.user-image img {
+/* .user-image img {
   object-fit:fill;
   width: 470px;
   scale: 1.2;
   z-index: -9;
-/* filter: drop-shadow(5px 5px 10px white); */
-}
+  filter: drop-shadow(5px 5px 10px white);
+} */
 @keyframes scaleImage {
   0% {
     filter: grayscale(1);
