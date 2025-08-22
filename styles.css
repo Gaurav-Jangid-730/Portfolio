@@ -42,7 +42,11 @@ body {
   font-family: "Be Vietnam Pro", sans-serif;
   scroll-behavior: smooth;
 }
-* {box-sizing: border-box;}
+/* * {box-sizing: border-box;} */
+.button, .checkbox-label, .ball {
+  box-sizing: border-box;
+}
+
 
 .border{
   box-sizing: border-box;
