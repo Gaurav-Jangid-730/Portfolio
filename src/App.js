@@ -22,66 +22,71 @@ const projects = [
     id: 'project1',
     number: '01',
     title: 'The Lost Treasure - CTF',
-    description: 'A Hard-Level CTF Challenge Designed for Penetration Testers. Pushing the Limits of Enumeration, Exploitation & Privilege Escalation',
+    description:
+      'A Hard-Level CTF Challenge Designed for Penetration Testers. Pushing the Limits of Enumeration, Exploitation & Privilege Escalation',
     skills: [
-      '/images/stack/code.png',
-      '/images/stack/Bash.svg',
-      '/images/stack/linux.png',
-      '/images/stack/Tryhackme--Streamline-Simple-Icons.svg'
+      pub('/images/stack/code.png'),
+      pub('/images/stack/Bash.svg'),
+      pub('/images/stack/linux.png'),
+      pub('/images/stack/Tryhackme--Streamline-Simple-Icons.svg'),
     ],
     links: {
       github: 'https://github.com/Gaurav-Jangid-730/The-Lost-Treasure-CTF.git',
-      live: 'https://tryhackme.com/r/room/thelosttreasureEG'
-    }
+      live: 'https://tryhackme.com/r/room/thelosttreasureEG',
+    },
   },
   {
     id: 'project2',
     number: '02',
     title: 'Network Prot Scanner',
-    description: 'Built a Command Line Application that scans open ports and services on an IP address or a domain name.',
+    description:
+      'Built a Command Line Application that scans open ports and services on an IP address or a domain name.',
     skills: [
-      '/images/stack/Python.png',
-      '/images/stack/Bash.svg',
-      '/images/stack/linux.png',
-      '/images/stack/windows.png'
+      pub('/images/stack/Python.png'),
+      pub('/images/stack/Bash.svg'),
+      pub('/images/stack/linux.png'),
+      pub('/images/stack/windows.png'),
     ],
     links: {
       github: 'https://github.com/Gaurav-Jangid-730/Network-Port-Scanner.git',
-      live: 'https://github.com/Gaurav-Jangid-730/Network-Port-Scanner.git'
-    }
+      live: 'https://github.com/Gaurav-Jangid-730/Network-Port-Scanner.git',
+    },
   },
   {
     id: 'project3',
     number: '03',
     title: 'Malware Analysis Home Lab',
-    description: 'Creating a virtual lab with Kali as the attacking machine and Windows as the defender to test different malware.',
+    description:
+      'Creating a virtual lab with Kali as the attacking machine and Windows as the defender to test different malware.',
     skills: [
-      '/images/stack/wiresark.png',
-      '/images/stack/Bash.svg',
-      '/images/stack/linux.png',
-      '/images/stack/windows.png'
+      pub('/images/stack/wiresark.png'),
+      pub('/images/stack/Bash.svg'),
+      pub('/images/stack/linux.png'),
+      pub('/images/stack/windows.png'),
     ],
     links: {
       github: 'https://github.com/Gaurav-Jangid-730/Malware_Analysis_Lab.git',
-      live: 'https://github.com/Gaurav-Jangid-730/Malware_Analysis_Lab.git'
-    }
+      live: 'https://github.com/Gaurav-Jangid-730/Malware_Analysis_Lab.git',
+    },
   },
   {
     id: 'project4',
     number: '04',
     title: 'Password Strength Checker',
-    description: 'An intelligent password analysis tool offering real-time strength evaluation and actionable feedback for enhanced security.',
+    description:
+      'An intelligent password analysis tool offering real-time strength evaluation and actionable feedback for enhanced security.',
     skills: [
-      '/images/stack/Python.png',
-      '/images/stack/Bash.svg',
-      '/images/stack/linux.png',
-      '/images/stack/windows.png'
+      pub('/images/stack/Python.png'),
+      pub('/images/stack/Bash.svg'),
+      pub('/images/stack/linux.png'),
+      pub('/images/stack/windows.png'),
     ],
     links: {
-      github: 'https://github.com/Gaurav-Jangid-730/Password_Strength_Cheacker.git',
-      live: 'https://github.com/Gaurav-Jangid-730/Password_Strength_Cheacker.git'
-    }
-  }
+      github:
+        'https://github.com/Gaurav-Jangid-730/Password_Strength_Cheacker.git',
+      live: 'https://github.com/Gaurav-Jangid-730/Password_Strength_Cheacker.git',
+    },
+  },
 ];
 
 const Description = [
