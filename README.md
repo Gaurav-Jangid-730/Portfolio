@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Gaurav Sharma — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio showcasing projects, skills, achievements, and ways to get in touch. Built with React and designed for clarity, speed, and accessibility.
 
-## Available Scripts
+- Live site: https://gaurav-jangid-730.github.io/Portfolio/
+- Tech: React, JavaScript, CSS
+- Focus: Cybersecurity, Networking, Ethical Hacking
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This portfolio highlights hands-on work in cybersecurity and networking, including CTF challenges, tooling, and practical problem-solving. It features a clean single-page layout with smooth navigation and a consistent visual style.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Sections
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Home: Brief introduction and call-to-action.
+- About: Background, certifications, and areas of interest.
+- Projects: Selected projects with descriptions and links.
+- Skills: Core technologies and tools used regularly.
+- Contact: Direct links for collaboration and inquiries.
 
-### `npm test`
+## Featured Projects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- The Lost Treasure — CTF: A hard-level challenge emphasizing enumeration, exploitation, and privilege escalation.
+- Network Port Scanner: A CLI tool to enumerate open ports and services for hosts and domains.
+- Malware Analysis Home Lab: An isolated environment for testing malware and defense strategies.
+- Password Strength Checker: Real-time feedback and guidance for stronger passwords.
 
-### `npm run build`
+Each project includes quick context, primary skills involved, and links to source or live references.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Skills & Tools
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Languages: Python, Java
+- Platforms & OS: Linux, Windows
+- Networking & Security: Wireshark, Nmap, Burp Suite, Cisco (CCNA), TryHackMe
+- Dev & Workflow: Git, GitHub
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+- Install dependencies:
+  - npm install
+- Run development server:
+  - npm start
+- Build for production:
+  - npm run build
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Live Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This site is published on GitHub Pages. Updates are reflected after building and publishing the latest version of the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Connect
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- LinkedIn: www.linkedin.com/in/gaurav-sharma-cybersecurity
+- GitHub: https://github.com/Gaurav-Jangid-730
+- X (Twitter): https://x.com/GauravShar79637
+- Instagram: https://www.instagram.com/gaurav_jangid_730/
+- Email: gauravjangid7300@gmail.com
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License. See LICENSE if included in the repository.
